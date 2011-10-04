@@ -1,0 +1,17 @@
+name: Dwarflater
+main: me.luuxx.Dwarflater.Dwarflater
+version: 1.0
+description: >
+             Translate chat to Dwarf!
+permissions:
+   Dwarflater.Dwarf:
+      default: op
+      description: allows ppl to speak dwarven.
+   Dwarflater.DwarfAuto:
+      default: op
+      description: allows ppl to speak dwarven automatically.
+commands:
+   dwarf:
+      description: Sends a chat in dwarf.
+   dwarfauto:
+      description: Sends a autotranselate to dwarven.
